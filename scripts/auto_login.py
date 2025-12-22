@@ -14,7 +14,7 @@ import requests
 from playwright.sync_api import sync_playwright
 
 # ==================== 配置 ====================
-CLAW_CLOUD_URL = "https://eu-central-1.run.claw.cloud"
+CLAW_CLOUD_URL = "https://ap-northeast-1.claw.cloud"
 SIGNIN_URL = f"{CLAW_CLOUD_URL}/signin"
 DEVICE_VERIFY_WAIT = 30
 
